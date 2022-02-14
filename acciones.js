@@ -1,7 +1,7 @@
 
-  //let retiro = document.getElementById("cantidad").value;
+  let retiro = document.getElementById("cantidad").value;
 
-  /*let enter = document.getElementById("btnenter");
+  let enter = document.getElementById("btnenter");
   enter.addEventListener('click', btnenter);
   function btnenter() {
     let saldo = 990;
@@ -38,8 +38,8 @@
     document.write(deA10 + " de 10" + "<br>");
     document.write("Tu saldo actual es: " + saldo);
   }
-
-  let enter = document.getElementById("btnenter");
+  
+  /*let enter = document.getElementById("btnenter");
   enter.addEventListener('click', btnenter);
   function btnenter(){
     let saldo = 990;
@@ -47,6 +47,3 @@
     saldo = saldo + deposito;
     document.write("Tu saldo actual es: " + saldo);
   }*/
-
-  
-

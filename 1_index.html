@@ -21,7 +21,7 @@
                         <p>Enre</p><button id="quique">Selec</button>
                     </li>
                     <li>
-                        <p>Juan</p><button id="juan">Selec</button>
+                        <p>Juan</p><button onclick=" acceso()"id="juan">Selec</button>
                     </li>
                     <li>
                         <p>Monse</p><button id="mon">Select</button>
@@ -30,8 +30,11 @@
             </section>
         </div>
 
-        <button id="confirmar">ENTER</button>
-        <!--, onclick="navegar()"-->
-    <script src="cajero.js"></script>
+        <script>
+            async function acceso() {
+            window.location.href = './2_acciones.html';
+        }
+
+        </script>
 </body>
 </html>
